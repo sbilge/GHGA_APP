@@ -20,4 +20,4 @@
 6. View metadata on `http://localhost:5000/view`
 
 
-Please note that, the application assumes there should be one JSON file per study. The JSON file should follow the same schema as the example file given [here]{https://github.com/sbilge/GHGA_APP/blob/main/test_data/metadata.json}
+Please note that, the application assumes there should be one JSON file per study. The JSON file should follow the same schema as the example file given [here](https://github.com/sbilge/GHGA_APP/blob/main/test_data/metadata.json)
