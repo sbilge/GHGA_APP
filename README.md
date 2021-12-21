@@ -1,6 +1,6 @@
 # Metadata registry
 
-This is an application to read the metadata from a JSON file, populate the database with metadata information and displays data. Please note that the JSON file should follow the same schema as the example file given [here](https://github.com/sbilge/GHGA_APP/blob/main/test_data/metadata.json). The application assumes there should be one JSON file per study. If you have two JSON file belongs to same Study, merge them before importing data to database.
+This is an application to read the metadata from a JSON file, populate the database with metadata and display it. Please note that the JSON file should follow the same schema as the example file given [here](https://github.com/sbilge/GHGA_APP/blob/main/test_data/metadata.json). The application assumes there should be one JSON file per study. If you have two JSON file belongs to same Study, merge them before importing data to database.
 
 ## Getting started
 
