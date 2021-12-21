@@ -1,0 +1,45 @@
+{
+    "name": "Another study",
+    "description": "Another study involving other patients",
+    "sample": [
+        {
+            "donor_age": 60,
+            "donor_sex": "Female",
+            "tissue_type":"Liver",
+            "experiment": [
+                {
+                    "experiment_type": "RNASeq",
+                    "file": [
+                        {
+                            "file_name": "ABC_RNA.fq.gz",
+                            "size": 1547856423,
+                            "checksum": "4353e755883be5d0058e13e272335414"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "donor_age": 70,
+            "donor_sex": "Male",
+            "tissue_type":"Liver",
+            "experiment": [
+                {
+                    "experiment_type": "WES",
+                    "file": [
+                        {
+                            "file_name": "TUMOR.fq.gz",
+                            "size": 3541099847,
+                            "checksum": "0a53b1b23266d4d1a730bdde6851359f"
+                        },
+                        {
+                            "file_name": "HEALTY.fq.gz",
+                            "size": 1574856241,
+                            "checksum": "fdb64e1ec27e0e7840c779bfa3895354"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

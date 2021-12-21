@@ -1,0 +1,51 @@
+{
+    "name": "Munich Cancer Study",
+    "description": "Study involving 1,000 lung cancerpatients from Munich",
+    "sample": [
+        {
+            "donor_age": 79,
+            "donor_sex": "Female",
+            "tissue_type":"Lung",
+            "experiment": [
+                {
+                    "experiment_type": "RNASeq",
+                    "file": [
+                        {
+                            "file_name": "ABC_RNA_R1.fq.gz",
+                            "size": 1547856423
+                        },
+                        {
+                            "file_name": "ABC_RNA_R2.fq.gz",
+                            "size": 1574856241
+                        }
+                    ]
+                },
+                {
+                    "experiment_type": "WES",
+                    "file": [
+                        {
+                            "file_name": "ABC_GENOME_COMBINED.fq.gz",
+                            "size": 3470014274
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "donor_age": 85,
+            "donor_sex": "Female",
+            "tissue_type":"Lung",
+            "experiment": [
+                {
+                    "experiment_type": "WES",
+                    "file": [
+                        {
+                            "file_name": "DEF_GENOME_COMBINED.fq.gz",
+                            "size": 3541099847
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

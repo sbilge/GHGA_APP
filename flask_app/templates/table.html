@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+
+    <title>Data view</title>
+  </head>
+  <body>
+    <h1>Data view</h1>
+
+    <table class="table table-bordered table-dark table-hover">
+        <thead>
+          <tr>
+            <th scope="col">Study Name</th>
+            <th scope="col">Study Description</th>
+            <th scope="col">Donor Age</th>
+            <th scope="col">Donor Sex</th>
+            <th scope="col">Tissue Type</th>
+            <th scope="col">Experiment Type</th>
+            <th scope="col">File Name</th>
+            <th scope="col">File Size</th>
+            <th scope="col">Checksum</th>
+          </tr>
+        </thead>
+        <tbody>
+            {% for study, sample, experiment, file in results %}
+          <tr>
+            <td>{{ study.name }}</td>
+            <td>{{ study.description }}</td>
+            <td>{{ sample.donor_age }}</td>
+            <td>{{ sample.donor_sex }}</td>
+            <td>{{ sample.tissue_type }}</td>
+            <td>{{ experiment.experiment_type }}</td>
+            <td>{{ file.file_name }}</td>
+            <td>{{ file.file_size }}</td>
+            <td>{{ file.checksum }}</td>
+          </tr>
+          {% endfor %}
+    
+        </tbody>
+    </table>
+
+  </body>
+</html>
