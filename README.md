@@ -14,5 +14,10 @@
 4. Start the flask app  
 `python run.py`
 
-5. To upload metadata, open a new terminal with ghga_app as conda environment
+5. To upload metadata, open a new terminal with ghga_app as conda environment  
+`python import_data.py -f <JSON_FILE>`
 
+6. View metadata on `http://localhost:5000/view`
+
+
+Please note that, the application assumes there should be one JSON file per study. The JSON file should follow the same schema as the example file given [here]{https://github.com/sbilge/GHGA_APP/blob/main/test_data/metadata.json}
